@@ -1,0 +1,48 @@
+.section {
+  padding: 30px;
+  border: 5px solid transparent;
+  border-image: linear-gradient(
+    to bottom left,
+    violet 0%,
+    cornflowerblue 25%,
+    lemonchiffon 100%,
+    palevioletred 75%,
+    mediumslateblue 100%
+  ) 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  margin-bottom: 20px;
+  background-image: -webkit-linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: linear-gradient(
+    to right,
+    violet,
+    mediumvioletred,
+    darkviolet,
+    mediumslateblue,
+    yellow,
+    orange,
+    red
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.title:hover {
+  color: purple;
+  cursor: pointer;
+  text-shadow: 1px 0 10px darkviolet;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: red;
+}
