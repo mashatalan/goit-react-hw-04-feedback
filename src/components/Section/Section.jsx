@@ -11,4 +11,6 @@ export default function Section({ title, children }) {
   )
 }
 
-
+Section.propType = {
+  title: PropTypes.string,
+}
